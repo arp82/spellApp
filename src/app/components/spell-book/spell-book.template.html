@@ -1,0 +1,48 @@
+<div class="container">
+    <div data-ng-if="vm.errorMessage"
+        data-uib-alert
+        data-type="danger"
+        data-close="vm.closeAlert()">
+        {{vm.errorMessage}}
+    </div>
+    <div class="text-center successMsg"
+        data-ng-if="vm.successMessage"
+        data-uib-alert
+        data-type="success"
+        data-close="vm.closeAlert()">
+        {{vm.successMessage}}
+    </div>
+    <table class="table table-bordered table-striped tabled-condensed">
+        <thead>
+            <tr>
+                <th>Rubric</th>
+                <th>Spell</th>
+                <th>School</th>
+                <th>Mana</th>
+                <th>Difficulty</th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-ng-repeat="spell in vm.spells">
+                <td><span>{{spell.id}}</span></td>
+                <td><span>{{spell.name}}</span></td>
+                <td><span>{{spell.school}}</span></td>
+                <td><span>{{spell.mana}}</span></td>
+                <td><span>{{spell.difficulty}}</span></td>
+                <td>
+                    <span class="fa fa-minus-circle spell-book-delete" data-ng-click="vm.removeSpell(spell)"></span>
+                </td>
+            </tr>
+            <tr>
+                <select data-ng-model="vm.spellRubricToAdd"
+                    data-ng-change="vm.addSpell(vm.spellRubricToAdd)"
+                    data-ng-options="id for id in vm.spellRubricsAvailable">
+                </select>
+            </tr>
+        </tbody>
+    </table>
+    <button class="btn btn-primary" data-ng-click="vm.saveSpellbookChanges()" data-ng-disabled="!vm.spellsAreModified"> Save Spells </button>
+    <button class="btn" data-ng-click="vm.cancel()" data-ng-disabled="!vm.spellsAreModified"> Cancel </button>
+    {{vm.isSpellbookModified()}}
+</div>

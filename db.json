@@ -1,0 +1,153 @@
+{
+  "spells": [
+    {
+      "id": 12,
+      "name": "Fireball",
+      "school": "Fire",
+      "mana": 10,
+      "difficulty": 5
+    },
+    {
+      "id": 13,
+      "name": "Gnawing Tendrils",
+      "school": "Morph",
+      "mana": 17,
+      "difficulty": 12
+    },
+    {
+      "id": 14,
+      "name": "Orb of Happiness Unbridled",
+      "school": "Fairy",
+      "mana": 5,
+      "difficulty": 3
+    },
+    {
+      "id": 3,
+      "name": "Shockwave",
+      "school": "Earth",
+      "mana": 7,
+      "difficulty": 4
+    },
+    {
+      "id": 7,
+      "name": "Lightning",
+      "school": "Air",
+      "mana": 10,
+      "difficulty": 5
+    },
+    {
+      "id": 15,
+      "name": "Dragon Breath",
+      "school": "Fire",
+      "mana": 15,
+      "difficulty": 10
+    }
+  ],
+  "availableSpells": [
+    {
+      "id": 12,
+      "name": "Fireball",
+      "school": "Fire",
+      "mana": 10,
+      "difficulty": 5
+    },
+    {
+      "id": 13,
+      "name": "Gnawing Tendrils",
+      "school": "Morph",
+      "mana": 17,
+      "difficulty": 12
+    },
+    {
+      "id": 14,
+      "name": "Orb of Happiness Unbridled",
+      "school": "Fairy",
+      "mana": 5,
+      "difficulty": 3
+    },
+    {
+      "id": 15,
+      "name": "Dragon Breath",
+      "school": "Fire",
+      "mana": 15,
+      "difficulty": 10
+    },
+    {
+      "id": 3,
+      "name": "Shockwave",
+      "school": "Earth",
+      "mana": 7,
+      "difficulty": 4
+    },
+    {
+      "id": 7,
+      "name": "Lightning",
+      "school": "Air",
+      "mana": 10,
+      "difficulty": 5
+    },
+    {
+      "id": 1,
+      "name": "Healing Balm",
+      "school": "Water",
+      "mana": 5,
+      "difficulty": 2
+    },
+    {
+      "id": 2,
+      "name": "Chewing Gum of Doom",
+      "school": "Arcane",
+      "mana": 20,
+      "difficulty": 19
+    },
+    {
+      "id": 4,
+      "name": "Hurricane",
+      "school": "Air",
+      "mana": 14,
+      "difficulty": 14
+    },
+    {
+      "id": 5,
+      "name": "Chain Lightning",
+      "school": "Air",
+      "mana": 16,
+      "difficulty": 14
+    },
+    {
+      "id": 8,
+      "name": "Shadow Bolts",
+      "school": "Shadow",
+      "mana": 10,
+      "difficulty": 5
+    },
+    {
+      "id": 6,
+      "name": "Freezing Blast",
+      "school": "Water",
+      "mana": 10,
+      "difficulty": 5
+    },
+    {
+      "id": 9,
+      "name": "Summon Pedobear",
+      "school": "Otherworld",
+      "mana": 35,
+      "difficulty": 50
+    },
+    {
+      "id": 11,
+      "name": "Lux Confetti",
+      "school": "Light",
+      "mana": 25,
+      "difficulty": 25
+    },
+    {
+      "id": 10,
+      "name": "Boundless Love",
+      "school": "Air",
+      "mana": 30,
+      "difficulty": 35
+    }
+  ]
+}
