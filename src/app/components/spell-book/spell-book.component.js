@@ -34,7 +34,7 @@ function SpellBookController(SpellsService, _) {
 
     // Lifecycle hook methods
     vm.$onInit = function() {
-        if (vm.allSpells && vm.allSpells.length && !(typeof vm.allSpells === 'string' || vm.allSpells instanceof String)) {
+        if (vm.allSpells && vm.allSpells.length && !angular.isString(vm.allSpells)) {
             SpellsService.getMySpells().then(onSuccess, onError);    
         } else {
             vm.errorMessage = 'Could not get the spells from the serv... I mean, the Library. Here is the librarians message: ' + vm.allSpells;
