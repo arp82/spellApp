@@ -62,7 +62,7 @@ function SpellsService($q, $resource, _) {
 
         return $q.all(promises).then(onSuccess, onError);
 
-        function onSuccess(response) {
+        function onSuccess() {
             return 'Your spellbook has been updated in the Library';
         }
         
